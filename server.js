@@ -529,9 +529,7 @@ async function createWebRtcTransport() {
             listenIps: [
               {
                 ip: '0.0.0.0', // replace with relevant IP address
-                announcedIp: '127.0.0.1',
-                //ip: '3.80.83.116', // replace with relevant IP address
-                // announcedIp: '3.80.83.116',
+                announcedIp: '[CURRENT IP]',
               }
             ],
             enableUdp: true,
